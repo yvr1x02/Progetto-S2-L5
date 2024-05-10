@@ -1,1 +1,174 @@
 /* Your styles here */
+
+body {
+  background-color: #e9edee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  background-color: #222f3f;
+}
+
+#img {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  height: 3em;
+}
+.list {
+  padding-left: 10px;
+  padding: 0.8em;
+  background-color: #364759;
+}
+
+.list li {
+  display: inline-block;
+}
+.list li button {
+  background-color: #364759;
+  border: none;
+  color: white;
+}
+
+.holiday {
+  margin: 2em;
+  padding: 0.5em;
+  text-align: center;
+  background-color: #f56600;
+  color: white;
+}
+
+.backgroundimg {
+  margin: 2em;
+  text-align: center;
+  line-height: 50px;
+  background-image: url(..//images/bg-image.png);
+  background-size: cover;
+  background-position: center;
+  height: 10em;
+  box-sizing: border-box;
+}
+
+.holiday-text {
+  font-size: 30px;
+  padding-top: 1em;
+  color: white;
+}
+article {
+  background-color: #ffffff;
+  margin: 2em;
+}
+.cardcontainer {
+  margin: 2em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  margin: 10px 10px auto;
+  border: 2px;
+  padding: 10px;
+  border-radius: 5%;
+  line-height: 300px;
+  text-align: center;
+  overflow: hidden;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+.img1 {
+  background-image: url(..//images/img_1.jpg);
+}
+
+.img2 {
+  background-image: url(..//images/img_2.jpg);
+}
+
+.img3 {
+  background-image: url(..//images/img_3.jpg);
+}
+
+.img4 {
+  background-image: url(..//images/img_4.jpg);
+}
+
+.title h2,
+.title button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title {
+  font-size: 25px;
+  padding-left: 1.5em;
+  padding-top: 1em;
+}
+
+.title button {
+  border: none;
+  background-color: #ffffff;
+  color: #549097;
+  font-size: 20px;
+}
+
+.bannercontainer {
+  margin: 2em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.bannerimg {
+  width: auto;
+  height: 500px;
+  background-image: url(..//images/img_9.png);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+.title2 h2,
+.title2 button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title2 {
+  font-size: 25px;
+  padding-left: 1.5em;
+  padding-bottom: 2rem;
+}
+
+.title2 button {
+  border: none;
+  background-color: #e9edee;
+  color: #549097;
+  font-size: 20px;
+}
+.bannerimg2 {
+  width: auto;
+  height: 500px;
+  background-image: url(..//images/img_10.png);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+.backtotop {
+  background-color: #364759;
+  padding: 0.8em;
+  text-align: center;
+}
+
+.footerlogo {
+  background-color: #222f3f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.footerimg {
+  height: 50px;
+}

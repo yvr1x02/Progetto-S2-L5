@@ -39,6 +39,7 @@ console.log(pets);
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
 console.log("----------------ESERCIZIO 4---------------");
+
 let primoValore = pets.shift();
 pets.push(primoValore);
 console.log(pets);
