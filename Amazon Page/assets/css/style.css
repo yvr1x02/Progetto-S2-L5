@@ -24,10 +24,10 @@ body {
 .list li {
   display: inline-block;
 }
-.list li button {
-  background-color: #364759;
-  border: none;
+.list li a {
+  text-decoration: none;
   color: white;
+  padding-left: 1em;
 }
 
 .holiday {
@@ -83,6 +83,7 @@ article {
   background-size: cover;
   background-position: center;
   box-sizing: border-box;
+  box-shadow: 1px 1px 6px;
 }
 .img1 {
   background-image: url(..//images/img_1.jpg);
@@ -101,7 +102,7 @@ article {
 }
 
 .title h2,
-.title button {
+.title a {
   display: inline-block;
   vertical-align: middle;
 }
@@ -112,11 +113,11 @@ article {
   padding-top: 1em;
 }
 
-.title button {
-  border: none;
-  background-color: #ffffff;
+.title a {
+  text-decoration: none;
   color: #549097;
   font-size: 20px;
+  padding-left: 1em;
 }
 
 .bannercontainer {
@@ -135,20 +136,19 @@ article {
 }
 
 .title2 h2,
-.title2 button {
+.title2 a {
   display: inline-block;
   vertical-align: middle;
 }
 
 .title2 {
   font-size: 25px;
-  padding-left: 1.5em;
+  padding-left: 2em;
   padding-bottom: 2rem;
 }
 
-.title2 button {
-  border: none;
-  background-color: #e9edee;
+.title2 a {
+  text-decoration: none;
   color: #549097;
   font-size: 20px;
 }
